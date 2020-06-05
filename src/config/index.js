@@ -1,12 +1,12 @@
 module.exports = {
 
     author: "@konstantinmuenster",
-    siteTitle: "Gatsby Starter Portfolio Minimal",
-    siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-    siteDescription: "A modern one-page portfolio with a clean yet expressive design.",
+    siteTitle: "Emily Herr Portfolio",
+    siteShortTitle: "Emily", // Used as logo text in header, footer, and splash screen
+    siteDescription: "Emily Herr - Web Design.",
     siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
     siteLanguage: "en_US",
-    siteIcon: "src/content/favicon.png", // Relative to gatsby-config file
+    siteIcon: "src/content/contact/Me.jpg", // Relative to gatsby-config file
 
     splashScreen: false, // Set this to true if you want to use the splash screen
 
@@ -20,34 +20,25 @@ module.exports = {
     socialMedia: [
         {
             name: "Linkedin",
-            url: "https://www.linkedin.com/in/konstantin-muenster/"
+            url: "https://www.linkedin.com/in/emilyherr/"
         },
-        {
-            name: "Medium",
-            url: "https://medium.com/@konstantin.muenster"
-        },
+      
         {
             name: "Github",
-            url: "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal"
+            url: "https://github.com/accordingtoherr"
         },
-        {
-            name: "Behance",
-            url: "https://www.behance.net/konstanmnster"
-        },
+    
     ],
   
     navLinks: {
         menu: [
-            {
-                name: "Articles",
-                url: "/#articles",
-            },
+          
             {
                 name: "About Me",
                 url: "/#about",
             },
             {
-                name: "Features",
+                name: "Projects",
                 url: "/#projects",
             },
         ],
@@ -62,9 +53,6 @@ module.exports = {
             name: "Privacy",
             url: "/privacy"
         },
-        {
-            name: "Imprint",
-            url: "/imprint"
-        }
+      
     ]
 }
