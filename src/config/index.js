@@ -4,7 +4,7 @@ module.exports = {
     siteTitle: "Emily Herr Portfolio",
     siteShortTitle: "Emily", // Used as logo text in header, footer, and splash screen
     siteDescription: "Emily Herr - Web Design.",
-    siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+    siteUrl: "https://www.emilyclaireherr.com",
     siteLanguage: "en_US",
     siteIcon: "src/content/contact/Me.jpg", // Relative to gatsby-config file
 
