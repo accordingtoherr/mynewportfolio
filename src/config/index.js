@@ -1,6 +1,6 @@
 module.exports = {
 
-    author: "@konstantinmuenster",
+    author: "Emily",
     siteTitle: "Emily Herr Portfolio",
     siteShortTitle: "Emily", // Used as logo text in header, footer, and splash screen
     siteDescription: "Emily Herr - Web Design.",

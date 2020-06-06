@@ -14,7 +14,7 @@ import { splashScreen } from "../config"
 
 const IndexPage = ({ data }) => (
   <Layout splashScreen={splashScreen}>
-    <SEO title="Emily Herr - Web Developer." />
+    <SEO title="Emily Herr - Web Developer" />
     <Hero content={data.hero.edges} />
     {/* Articles is populated via Medium RSS Feed fetch */}
 
