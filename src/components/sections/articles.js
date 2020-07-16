@@ -38,9 +38,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
     .articles {
       display: flex;
       justify-content: space-between;
-      overflow-x: scroll;
-      overflow-y: hidden;
-      -webkit-overflow-scrolling: touch;
+    
       margin: -2rem 0 0 0;
       padding: 0 2rem;
       &::-webkit-scrollbar {
