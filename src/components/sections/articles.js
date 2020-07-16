@@ -50,14 +50,12 @@ const StyledContentWrapper = styled(ContentWrapper)`
       }
       /* Show scrollbar if desktop and wrapper width > viewport width */
       @media (hover: hover) {
-        &::-webkit-scrollbar {
+
           display: block;
           -webkit-appearance: none;
         }
 
-        &::-webkit-scrollbar:horizontal {
-          height: 0.8rem;
-        }
+       
 
         &::-webkit-scrollbar-thumb {
           border-radius: 8px;
